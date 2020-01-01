@@ -7,11 +7,11 @@
         <link rel = "stylesheet" href = "css/style.css">
     </head>
     
-    <body> 
+    <body style="background-image:linear-gradient(to left, rgba(230, 230, 250,0.5), rgba(230, 230, 250,0.5));"> 
         <div class="main-content">
 
        {{>header}}
-      <p> Use this site to get yur weather information!</p>
+      <h2> Use this site to get your weather information!</h2>
 
        <form>
            <input placeholder="Location">
@@ -21,8 +21,10 @@
        <p id="message-1"></p>
         <p id="message-2"></p>
 
-       </div>
+<img src="img/logo.png" height="250" style="box-shadow:3px 10px 18px #0a394fbf;">
 
+       </div>
+    
      {{>footer}}
 
       <script src="js/app.js"></script>

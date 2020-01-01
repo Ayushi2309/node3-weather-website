@@ -15,7 +15,7 @@ body{
 }
 
 footer{
-    color: #888888;
+    color:#2F4F4F;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
@@ -32,13 +32,10 @@ h1{
 }
 
 header a{
-    color: #888888;
+    color:#2F4F4F;
     margin-right: 16px;
     text-decoration: none;
-}
-
-.portrait{
-    width: 250px;
+    font-weight: bolder;
 }
 
 input{
